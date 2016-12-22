@@ -73,19 +73,19 @@ public class InitDbService {
 		blogAnh.setUser(userAdmin);
 		blogRepository.save(blogAnh);
 		
-		Item item1 = new Item();
-		item1.setBlog(blogAnh);
-		item1.setTitle("first");
-		item1.setLink("#BlahBlahBlah.com");
-		item1.setPublishedDate(new Date());
-		itemRepository.save(item1);
-
-		Item item2 = new Item();
-		item2.setBlog(blogAnh);
-		item2.setTitle("second");
-		item2.setLink("#BlahBlahBlah.com");
-		item2.setPublishedDate(new Date());
-		itemRepository.save(item2);	
+//		Item item1 = new Item();
+//		item1.setBlog(blogAnh);
+//		item1.setTitle("first");
+//		item1.setLink("#BlahBlahBlah.com");
+//		item1.setPublishedDate(new Date());
+//		itemRepository.save(item1);
+//
+//		Item item2 = new Item();
+//		item2.setBlog(blogAnh);
+//		item2.setTitle("second");
+//		item2.setLink("#BlahBlahBlah.com");
+//		item2.setPublishedDate(new Date());
+//		itemRepository.save(item2);	
 	}
 	
 }
